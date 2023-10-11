@@ -1,0 +1,66 @@
+body{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 375px;
+    height: 520px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.06);
+    padding: 20px;
+    overflow-y: scroll;
+   
+
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.container form{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width:100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding:7px 4px;
+    
+   
+  
+   
+    
+}
+.container form i{
+    padding-left: 8px;
+}
+.product{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+img{
+    height: 100px;
+    width: 90px;
+    object-fit: cover;
+}
+.p-details{
+margin-left: 20px;
+}
+.product-list{
+    padding: 20px;
+}
